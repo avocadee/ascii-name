@@ -1,3 +1,18 @@
+![Node.js Package](https://github.com/avocadee/ascii-name/workflows/Node.js%20Package/badge.svg)
+
+
+![Coverage statements](./coverage/badge-statements.svg)
+![Coverage lines](./coverage/badge-lines.svg)
+![Coverage functions](./coverage/badge-functions.svg)
+![Coverage branches](./coverage/badge-branches.svg)
+
+[![License][license-image]][license-url]
+[![npm](https://img.shields.io/npm/dw/jest-coverage-badges.svg)](https://www.npmjs.com/package/ascii-name)
+
+[license-url]: https://opensource.org/licenses/MIT
+[license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
+
+
 # ascii-name
 Return name of ascii code
 
