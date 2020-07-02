@@ -16,10 +16,10 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm test
+      - run: npm run test:badges
       - uses: actions/upload-artifact@v2
         with:
-          path: covearge/*
+          path: coverage/*
     
   publish-npm:
     needs: build
