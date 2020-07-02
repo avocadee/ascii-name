@@ -25,13 +25,20 @@ asciiName.getName(':');     //return 'colon'
 // ascii code index is supported (Decimal)
 asciiName.getName(53);      //return 'colon'
 
-
 // multiple names supported
 asciiName.getName('#');     //return 'number sign'
 asciiName.getName('#', 0);  //return 'number sign'
 
 asciiName.getNames('#');    // return an array of ["number sign", "pound"]
 asciiName.getNames(35);     // return an array of ["number sign", "pound"]
+
+// multi language supported
+asciiName.setLanguage('ko') // set language code
+asciiName.getLanguage();    // return current language code (Default: en)
+
+asciiText.getName(':')      // return '콜론' from ascii-name_ko.json
+asciiText.getName(0)        // return 'null' from ascii-name_en.json (default) as ascii-name_ko.json does not have the value of 0
+
 ```
 
 ## License
