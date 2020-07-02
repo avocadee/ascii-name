@@ -1,11 +1,5 @@
 ![Node.js Package](https://github.com/avocadee/ascii-name/workflows/Node.js%20Package/badge.svg)
 
-
-![Coverage statements](./coverage/badge-statements.svg)
-![Coverage lines](./coverage/badge-lines.svg)
-![Coverage functions](./coverage/badge-functions.svg)
-![Coverage branches](./coverage/badge-branches.svg)
-
 [![License][license-image]][license-url]
 [![npm](https://img.shields.io/npm/dt/ascii-name.svg)](https://www.npmjs.com/package/ascii-name)
 
