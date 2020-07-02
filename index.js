@@ -22,11 +22,19 @@ const getLanguage = () => {
 }
 
 const getName = (c, returnIndex) => {
-    return (returnIndex) ? _getNames(c)[returnIndex] : _getNames(c)[0];
+    if (returnIndex === undefined) {
+        returnIndex = 0;
+    }
+    const nameArray = _getNames(c);
+    return (nameArray) ? nameArray[returnIndex] : null;
 };
 
 const _getNames = (c) => {
     let codeIndex;
+
+    if (c === undefined) {
+        return null;
+    }
     if (typeof c === "string") {
         codeIndex = c.charCodeAt(0);
     } else if (typeof c === "number") {

@@ -6,5 +6,8 @@
     },
     "scripts": {
         "test": "jest"
+    },
+    "jest": {
+        "collectCoverage": true
     }
 }

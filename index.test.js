@@ -14,8 +14,15 @@ describe('getName', () => {
     test('code index & return index', () => {
         expect(asciiText.getName(58, 0)).toBe('colon');
     });
+    test('code index not in range 0 to 255', () => {
+        expect(asciiText.getName(-1)).toBe(null);
+        expect(asciiText.getName(256)).toBe(null);
+    });
+    test('code index not string nor numeric', () => {
+        expect(asciiText.getName()).toBe(null);
+        expect(asciiText.getName(true)).toBe(null);
+    });
     test('character', () => {
-        debugger;
         expect(asciiText.getName(':')).toBe('colon');
     });
     test('character & return index', () => {
@@ -47,6 +54,7 @@ describe('setLanguage', () => {
         expect(asciiText.getLanguage()).toBe('ko');
         expect(asciiText.getName(':')).toBe('콜론');
         expect(asciiText.getName(0)).toBe('null');
+        expect(asciiText.getName(1)).toBe('start of heading');
     });
     test('invalid', () => {
         expect(asciiText.getLanguage()).toBe('en');
