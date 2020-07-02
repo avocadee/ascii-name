@@ -1,0 +1,10 @@
+{
+    "name": "ascii-name",
+    "version": "1.0.1",
+    "devDependencies": {
+        "jest": "^26.1.0"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}
