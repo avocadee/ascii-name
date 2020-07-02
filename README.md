@@ -7,7 +7,7 @@
 ![Coverage branches](./coverage/badge-branches.svg)
 
 [![License][license-image]][license-url]
-[![npm](https://img.shields.io/npm/dw/jest-coverage-badges.svg)](https://www.npmjs.com/package/ascii-name)
+[![npm](https://img.shields.io/npm/dt/ascii-name.svg)](https://www.npmjs.com/package/ascii-name)
 
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg

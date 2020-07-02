@@ -13,7 +13,7 @@ const setLanguage = (lang) => {
         currentLanguage = lang;
     } catch (err){
         asciiNameMultiLanguageTable = prev;
-        console.log(lang + "is not supported.");
+        console.log(lang + " is not supported.");
     }
 }
 
