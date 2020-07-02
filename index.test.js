@@ -23,24 +23,6 @@ describe('getName', () => {
     });
 });
 
-describe('getNames', () => {
-    let asciiText;
-    beforeEach(() => {
-        asciiText = require('./index');
-    });
-
-    afterEach(() => {
-        jest.resetModules();
-    });
-
-    test('code index', () => {
-        expect(asciiText.getNames(58)[0]).toBe('colon');
-    });
-    test('character', () => {
-        expect(asciiText.getNames(':')[0]).toBe('colon');
-    });
-});
-
 describe('setLanguage', () => {
     let asciiText;
     beforeEach(() => {

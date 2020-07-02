@@ -28,9 +28,7 @@ asciiName.getName(53);      //return 'colon'
 // multiple names supported
 asciiName.getName('#');     //return 'number sign'
 asciiName.getName('#', 0);  //return 'number sign'
-
-asciiName.getNames('#');    // return an array of ["number sign", "pound"]
-asciiName.getNames(35);     // return an array of ["number sign", "pound"]
+asciiName.getName('#', 1);  //return 'pound' (see ascii-name_en.json)
 
 // multi language supported
 asciiName.setLanguage('ko') // set language code

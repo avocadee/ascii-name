@@ -22,10 +22,10 @@ const getLanguage = () => {
 }
 
 const getName = (c, returnIndex) => {
-    return (returnIndex) ? getNames(c)[returnIndex] : getNames(c)[0];
+    return (returnIndex) ? _getNames(c)[returnIndex] : _getNames(c)[0];
 };
 
-const getNames = (c) => {
+const _getNames = (c) => {
     let codeIndex;
     if (typeof c === "string") {
         codeIndex = c.charCodeAt(0);
@@ -38,10 +38,10 @@ const getNames = (c) => {
     if (codeIndex < 0 || codeIndex > 255) {
         return null; //TODO: throw exception
     }
-    return getNameFromTables(codeIndex);
+    return _getNameFromTables(codeIndex);
 };
 
-const getNameFromTables = (codeIndex) => {
+const _getNameFromTables = (codeIndex) => {
     if (asciiNameMultiLanguageTable) {
         const nameArray = asciiNameMultiLanguageTable[codeIndex];
         if (nameArray && nameArray.length > 0) {
@@ -58,7 +58,6 @@ const getNameFromTables = (codeIndex) => {
 
 module.exports = {
     getName: getName,
-    getNames: getNames,
     setLanguage: setLanguage,
     getLanguage: getLanguage
 }
