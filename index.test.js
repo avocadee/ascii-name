@@ -56,6 +56,21 @@ describe('setLanguage', () => {
         expect(asciiText.getName(0)).toBe('null');
         expect(asciiText.getName(1)).toBe('start of heading');
     });
+    test('fr', () => {
+        asciiText.setLanguage('fr');
+        expect(asciiText.getLanguage()).toBe('fr');
+        expect(asciiText.getName(':')).toBe('deux-points');
+    });
+    test('zh', () => {
+        asciiText.setLanguage('zh');
+        expect(asciiText.getLanguage()).toBe('zh');
+        expect(asciiText.getName(':')).toBe('冒号');
+    });
+    test('ja', () => {
+        asciiText.setLanguage('ja');
+        expect(asciiText.getLanguage()).toBe('ja');
+        expect(asciiText.getName(':')).toBe('コロン');
+    });
     test('invalid', () => {
         expect(asciiText.getLanguage()).toBe('en');
         asciiText.setLanguage('invalid');
