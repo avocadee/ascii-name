@@ -48,6 +48,15 @@ asciiText.getName(0)        // return 'null' from ascii-name_en.json (default) a
 
 ```
 
+## Supported Languages
+
+English: en
+French: fr
+Korean: ko
+Chinese: zh
+Japanese: ja
+
+
 ## License
 
 [MIT][license] License © [Heeseong Yoo][avocadee]
