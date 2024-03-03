@@ -50,11 +50,11 @@ asciiText.getName(0)        // return 'null' from ascii-name_en.json (default) a
 
 ## Supported Languages
 
-English: en
-French: fr
-Korean: ko
-Chinese: zh
-Japanese: ja
+- en: English
+- fr: French
+- ko: Korean
+- zh: Chinese
+- ja: Japanese
 
 
 ## License
