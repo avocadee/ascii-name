@@ -52,6 +52,9 @@ asciiText.getName(0)        // return 'null' from ascii-name_en.json (default) a
 
 - en: English
 - fr: French
+- es: Spanish
+- hi: Hindi
+- ar: Arabic
 - ko: Korean
 - zh: Chinese
 - ja: Japanese
