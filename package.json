@@ -1,14 +1,16 @@
 {
     "name": "ascii-name",
-    "version": "1.4.3",
+    "version": "2.0.0",
     "description": "Return name(s) of ascii code, multiple languages are supported.",
     "license": "MIT",
+    "type": "module",
     "repository": "avocadee/ascii-name",
     "author": {
         "name": "Heeseong Yoo",
         "email": "heeseong.yoo@gmail.com"
     },
     "main": "index.js",
+    "exports": "./index.js",
     "bugs": {
         "url": "https://github.com/avocadee/ascii-name/issues"
     },
@@ -18,14 +20,15 @@
         "code",
         "special",
         "character",
-        "language"
+        "language",
+        "esm"
     ],
     "devDependencies": {
         "jest": "^29.7.0"
     },
     "scripts": {
-        "test": "jest",
-        "test:coverage": "npm test -- --coverage"
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "test:coverage": "npm run test -- --coverage"
     },
     "jest": {
         "collectCoverage": true,
@@ -34,5 +37,8 @@
             "text",
             "lcov"
         ]
+    },
+    "overrides": {
+        "minimist": "^1.2.6"
     }
 }

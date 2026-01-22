@@ -1,14 +1,15 @@
 ![Node.js Package](https://github.com/avocadee/ascii-name/workflows/Node.js%20Package/badge.svg)
-
 [![License][license-image]][license-url]
 [![npm](https://img.shields.io/npm/dt/ascii-name.svg)](https://www.npmjs.com/package/ascii-name)
 
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
 
-
 # ascii-name
 Return name(s) of ASCII code characters in multiple languages.
+
+> **Note**: As of version **2.0.0**, this package is **Pure ESM**.  
+> If you are using `require()` (CommonJS), please stay on version **1.x.x**.
 
 ## Install
 
@@ -18,8 +19,11 @@ $ npm install ascii-name
 
 ## Usage
 
+Usage
+Since v2.0.0, you should use import and handle setLanguage as an asynchronous function.
+
 ```javascript
-const asciiName = require('ascii-name');
+import asciiName from 'ascii-name';
 
 // String is supported
 asciiName.getName(':');     // returns 'colon'
@@ -29,31 +33,42 @@ asciiName.getName(58);      // returns 'colon'
 
 // Multiple names supported (if available in JSON)
 asciiName.getName('#');        // returns 'number sign' (default index 0)
-asciiName.getName('#', 0);     // returns 'number sign'
-asciiName.getName('#', 1);     // returns 'pound' (see ascii-name_en.json)
+asciiName.getName('#', 1);     // returns 'pound'
 
-// Multi-language support
-asciiName.setLanguage('ko');   // set language code (Korean)
-asciiName.getLanguage();       // returns 'ko' (Default: 'en')
+// Multi-language support (Async)
+await asciiName.setLanguage('ko');   // set language code (Korean)
+asciiName.getLanguage();             // returns 'ko' (Default: 'en')
 
-asciiName.getName(':');        // returns '콜론' from ascii-name_ko.json
-asciiName.getName(0);          // returns 'null' from ascii-name_en.json (fallback to default language if not in current)
+asciiName.getName(':');        // returns '콜론'
 ```
 
 ## Supported Languages
 
 - **en**: English
-- **de**: German
+- **de**: German (Added in v2.0.0)
 - **es**: Spanish
 - **fr**: French
-- **it**: Italian
-- **pt**: Portuguese
-- **ru**: Russian
+- **it**: Italian (Added in v2.0.0)
+- **pt**: Portuguese (Added in v2.0.0)
+- **ru**: Russian (Added in v2.0.0)
 - **hi**: Hindi
 - **ar**: Arabic
 - **ko**: Korean
 - **ja**: Japanese
 - **zh**: Chinese
+
+## Legacy Support (v1.x.x)
+If your project does not support ESM, install the legacy version:
+
+```
+npm install ascii-name@1
+```
+
+```javascript
+const asciiName = require('ascii-name');
+asciiName.setLanguage('ko'); // Synchronous in v1.x
+console.log(asciiName.getName(':'));
+```
 
 ## Contributing
 
