@@ -19,6 +19,10 @@ $ npm install ascii-name
 ## Usage
 
 ```javascript
+// For ESM (Modern Node.js / Vite / Next.js etc.)
+import asciiName from 'ascii-name';
+
+// For CommonJS (Legacy Node.js)
 const asciiName = require('ascii-name');
 
 // String is supported

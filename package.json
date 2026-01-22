@@ -1,38 +1,39 @@
 {
     "name": "ascii-name",
-    "version": "1.4.3",
-    "description": "Return name(s) of ascii code, multiple languages are supported.",
-    "license": "MIT",
-    "repository": "avocadee/ascii-name",
+    "version": "2.0.0",
+    "description": "Return name(s) of ASCII code characters in multiple languages.",
+    "type": "module",
     "author": {
         "name": "Heeseong Yoo",
         "email": "heeseong.yoo@gmail.com"
     },
-    "main": "index.js",
-    "bugs": {
-        "url": "https://github.com/avocadee/ascii-name/issues"
+    "license": "MIT",
+    "repository": "avocadee/ascii-name",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
     },
-    "homepage": "https://github.com/avocadee/ascii-name",
-    "keywords": [
-        "ascii",
-        "code",
-        "special",
-        "character",
-        "language"
+    "files": [
+        "dist",
+        "ascii-name_*.json"
     ],
-    "devDependencies": {
-        "jest": "^29.7.0"
-    },
     "scripts": {
-        "test": "jest",
-        "test:coverage": "npm test -- --coverage"
+        "build": "tsup src/index.js --format cjs,esm --dts --clean",
+        "dev": "tsup src/index.js --format cjs,esm --watch",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js index.test.js",
+        "prepare": "npm run build"
     },
-    "jest": {
-        "collectCoverage": true,
-        "coverageReporters": [
-            "json-summary",
-            "text",
-            "lcov"
-        ]
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0"
+    },
+    "overrides": {
+        "minimist": "^1.2.6"
     }
 }
