@@ -1,0 +1,394 @@
+{
+    "0": [
+        "nulo"
+    ],
+    "1": [
+        "início de cabeçalho"
+    ],
+    "2": [
+        "início de texto"
+    ],
+    "3": [
+        "fim de texto"
+    ],
+    "4": [
+        "fim de transmissão"
+    ],
+    "5": [
+        "consulta"
+    ],
+    "6": [
+        "confirmação"
+    ],
+    "7": [
+        "sino"
+    ],
+    "8": [
+        "backspace"
+    ],
+    "9": [
+        "tabulação horizontal"
+    ],
+    "10": [
+        "alimentação de linha",
+        "nova linha"
+    ],
+    "11": [
+        "tabulação vertical"
+    ],
+    "12": [
+        "alimentação de formulário",
+        "nova página"
+    ],
+    "13": [
+        "retorno de carro"
+    ],
+    "14": [
+        "deslocar para fora"
+    ],
+    "15": [
+        "deslocar para dentro"
+    ],
+    "16": [
+        "escape de link de dados"
+    ],
+    "17": [
+        "controle de dispositivo 1"
+    ],
+    "18": [
+        "controle de dispositivo 2"
+    ],
+    "19": [
+        "controle de dispositivo 3"
+    ],
+    "20": [
+        "controle de dispositivo 4"
+    ],
+    "21": [
+        "confirmação negativa"
+    ],
+    "22": [
+        "espera síncrona"
+    ],
+    "23": [
+        "fim de bloco de transmissão"
+    ],
+    "24": [
+        "cancelar"
+    ],
+    "25": [
+        "fim de meio"
+    ],
+    "26": [
+        "substituto"
+    ],
+    "27": [
+        "escape"
+    ],
+    "28": [
+        "separador de arquivo"
+    ],
+    "29": [
+        "separador de grupo"
+    ],
+    "30": [
+        "separador de registro"
+    ],
+    "31": [
+        "separador de unidade"
+    ],
+    "32": [
+        "espaço"
+    ],
+    "33": [
+        "ponto de exclamação"
+    ],
+    "34": [
+        "aspas"
+    ],
+    "35": [
+        "cerquilha",
+        "cardinal",
+        "sustenido"
+    ],
+    "36": [
+        "cifrão"
+    ],
+    "37": [
+        "sinal de porcentagem"
+    ],
+    "38": [
+        "e comercial"
+    ],
+    "39": [
+        "apóstrofo"
+    ],
+    "40": [
+        "parêntese esquerdo"
+    ],
+    "41": [
+        "parêntese direito"
+    ],
+    "42": [
+        "asterisco"
+    ],
+    "43": [
+        "sinal de mais"
+    ],
+    "44": [
+        "vírgula"
+    ],
+    "45": [
+        "hífen",
+        "sinal de menos"
+    ],
+    "46": [
+        "ponto",
+        "ponto decimal"
+    ],
+    "47": [
+        "barra"
+    ],
+    "48": [
+        "dígito 0"
+    ],
+    "49": [
+        "dígito 1"
+    ],
+    "50": [
+        "dígito 2"
+    ],
+    "51": [
+        "dígito 3"
+    ],
+    "52": [
+        "dígito 4"
+    ],
+    "53": [
+        "dígito 5"
+    ],
+    "54": [
+        "dígito 6"
+    ],
+    "55": [
+        "dígito 7"
+    ],
+    "56": [
+        "dígito 8"
+    ],
+    "57": [
+        "dígito 9"
+    ],
+    "58": [
+        "dois-pontos"
+    ],
+    "59": [
+        "ponto e vírgula"
+    ],
+    "60": [
+        "sinal de menor"
+    ],
+    "61": [
+        "sinal de igual"
+    ],
+    "62": [
+        "sinal de maior"
+    ],
+    "63": [
+        "ponto de interrogação"
+    ],
+    "64": [
+        "arroba"
+    ],
+    "65": [
+        "A maiúsculo"
+    ],
+    "66": [
+        "B maiúsculo"
+    ],
+    "67": [
+        "C maiúsculo"
+    ],
+    "68": [
+        "D maiúsculo"
+    ],
+    "69": [
+        "E maiúsculo"
+    ],
+    "70": [
+        "F maiúsculo"
+    ],
+    "71": [
+        "G maiúsculo"
+    ],
+    "72": [
+        "H maiúsculo"
+    ],
+    "73": [
+        "I maiúsculo"
+    ],
+    "74": [
+        "J maiúsculo"
+    ],
+    "75": [
+        "K maiúsculo"
+    ],
+    "76": [
+        "L maiúsculo"
+    ],
+    "77": [
+        "M maiúsculo"
+    ],
+    "78": [
+        "N maiúsculo"
+    ],
+    "79": [
+        "O maiúsculo"
+    ],
+    "80": [
+        "P maiúsculo"
+    ],
+    "81": [
+        "Q maiúsculo"
+    ],
+    "82": [
+        "R maiúsculo"
+    ],
+    "83": [
+        "S maiúsculo"
+    ],
+    "84": [
+        "T maiúsculo"
+    ],
+    "85": [
+        "U maiúsculo"
+    ],
+    "86": [
+        "V maiúsculo"
+    ],
+    "87": [
+        "W maiúsculo"
+    ],
+    "88": [
+        "X maiúsculo"
+    ],
+    "89": [
+        "Y maiúsculo"
+    ],
+    "90": [
+        "Z maiúsculo"
+    ],
+    "91": [
+        "colchete esquerdo"
+    ],
+    "92": [
+        "barra invertida"
+    ],
+    "93": [
+        "colchete direito"
+    ],
+    "94": [
+        "acento circunflexo"
+    ],
+    "95": [
+        "sublinhado",
+        "traço inferior"
+    ],
+    "96": [
+        "acento grave",
+        "crase"
+    ],
+    "97": [
+        "a minúsculo"
+    ],
+    "98": [
+        "b minúsculo"
+    ],
+    "99": [
+        "c minúsculo"
+    ],
+    "100": [
+        "d minúsculo"
+    ],
+    "101": [
+        "e minúsculo"
+    ],
+    "102": [
+        "f minúsculo"
+    ],
+    "103": [
+        "g minúsculo"
+    ],
+    "104": [
+        "h minúsculo"
+    ],
+    "105": [
+        "i minúsculo"
+    ],
+    "106": [
+        "j minúsculo"
+    ],
+    "107": [
+        "k minúsculo"
+    ],
+    "108": [
+        "l minúsculo"
+    ],
+    "109": [
+        "m minúsculo"
+    ],
+    "110": [
+        "n minúsculo"
+    ],
+    "111": [
+        "o minúsculo"
+    ],
+    "112": [
+        "p minúsculo"
+    ],
+    "113": [
+        "q minúsculo"
+    ],
+    "114": [
+        "r minúsculo"
+    ],
+    "115": [
+        "s minúsculo"
+    ],
+    "116": [
+        "t minúsculo"
+    ],
+    "117": [
+        "u minúsculo"
+    ],
+    "118": [
+        "v minúsculo"
+    ],
+    "119": [
+        "w minúsculo"
+    ],
+    "120": [
+        "x minúsculo"
+    ],
+    "121": [
+        "y minúsculo"
+    ],
+    "122": [
+        "z minúsculo"
+    ],
+    "123": [
+        "chave esquerda"
+    ],
+    "124": [
+        "barra vertical"
+    ],
+    "125": [
+        "chave direita"
+    ],
+    "126": [
+        "til"
+    ],
+    "127": [
+        "excluir"
+    ]
+}

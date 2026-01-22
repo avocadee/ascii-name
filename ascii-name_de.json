@@ -1,0 +1,401 @@
+{
+    "0": [
+        "Null"
+    ],
+    "1": [
+        "Beginn der Kopfzeile"
+    ],
+    "2": [
+        "Beginn des Textes"
+    ],
+    "3": [
+        "Ende des Textes"
+    ],
+    "4": [
+        "Ende der Übertragung"
+    ],
+    "5": [
+        "Anfrage"
+    ],
+    "6": [
+        "Bestätigung"
+    ],
+    "7": [
+        "Klingel"
+    ],
+    "8": [
+        "Rücktaste"
+    ],
+    "9": [
+        "Horizontaler Tabulator"
+    ],
+    "10": [
+        "Zeilenvorschub",
+        "Neue Zeile"
+    ],
+    "11": [
+        "Vertikaler Tabulator"
+    ],
+    "12": [
+        "Seitenvorschub",
+        "Neue Seite"
+    ],
+    "13": [
+        "Wagenrücklauf"
+    ],
+    "14": [
+        "Umschalten aus"
+    ],
+    "15": [
+        "Umschalten ein"
+    ],
+    "16": [
+        "Datenübertragungsumschaltung"
+    ],
+    "17": [
+        "Gerätesteuerung 1"
+    ],
+    "18": [
+        "Gerätesteuerung 2"
+    ],
+    "19": [
+        "Gerätesteuerung 3"
+    ],
+    "20": [
+        "Gerätesteuerung 4"
+    ],
+    "21": [
+        "Negative Bestätigung"
+    ],
+    "22": [
+        "Synchronleerlauf"
+    ],
+    "23": [
+        "Ende des Übertragungsblocks"
+    ],
+    "24": [
+        "Abbruch"
+    ],
+    "25": [
+        "Ende des Mediums"
+    ],
+    "26": [
+        "Ersatzzeichen"
+    ],
+    "27": [
+        "Escape"
+    ],
+    "28": [
+        "Dateitrennzeichen"
+    ],
+    "29": [
+        "Gruppentrennzeichen"
+    ],
+    "30": [
+        "Datensatztrennzeichen"
+    ],
+    "31": [
+        "Einheitentrennzeichen"
+    ],
+    "32": [
+        "Leerzeichen"
+    ],
+    "33": [
+        "Ausrufezeichen"
+    ],
+    "34": [
+        "Anführungszeichen"
+    ],
+    "35": [
+        "Doppelkreuz",
+        "Raute",
+        "Nummernzeichen"
+    ],
+    "36": [
+        "Dollarzeichen"
+    ],
+    "37": [
+        "Prozentzeichen"
+    ],
+    "38": [
+        "Und-Zeichen",
+        "Ampersand"
+    ],
+    "39": [
+        "Apostroph"
+    ],
+    "40": [
+        "Klammer auf",
+        "linke Klammer"
+    ],
+    "41": [
+        "Klammer zu",
+        "rechte Klammer"
+    ],
+    "42": [
+        "Sternchen",
+        "Asterisk"
+    ],
+    "43": [
+        "Pluszeichen"
+    ],
+    "44": [
+        "Komma"
+    ],
+    "45": [
+        "Bindestrich",
+        "Minuszeichen",
+        "Bindestrich-Minus"
+    ],
+    "46": [
+        "Punkt",
+        "Dezimalpunkt",
+        "Satzendezeichen"
+    ],
+    "47": [
+        "Schrägstrich"
+    ],
+    "48": [
+        "Ziffer 0"
+    ],
+    "49": [
+        "Ziffer 1"
+    ],
+    "50": [
+        "Ziffer 2"
+    ],
+    "51": [
+        "Ziffer 3"
+    ],
+    "52": [
+        "Ziffer 4"
+    ],
+    "53": [
+        "Ziffer 5"
+    ],
+    "54": [
+        "Ziffer 6"
+    ],
+    "55": [
+        "Ziffer 7"
+    ],
+    "56": [
+        "Ziffer 8"
+    ],
+    "57": [
+        "Ziffer 9"
+    ],
+    "58": [
+        "Doppelpunkt"
+    ],
+    "59": [
+        "Semicolon",
+        "Strichpunkt"
+    ],
+    "60": [
+        "Kleiner-als-Zeichen"
+    ],
+    "61": [
+        "Gleichheitszeichen"
+    ],
+    "62": [
+        "Größer-als-Zeichen"
+    ],
+    "63": [
+        "Fragezeichen"
+    ],
+    "64": [
+        "At-Zeichen"
+    ],
+    "65": [
+        "Großbuchstabe A"
+    ],
+    "66": [
+        "Großbuchstabe B"
+    ],
+    "67": [
+        "Großbuchstabe C"
+    ],
+    "68": [
+        "Großbuchstabe D"
+    ],
+    "69": [
+        "Großbuchstabe E"
+    ],
+    "70": [
+        "Großbuchstabe F"
+    ],
+    "71": [
+        "Großbuchstabe G"
+    ],
+    "72": [
+        "Großbuchstabe H"
+    ],
+    "73": [
+        "Großbuchstabe I"
+    ],
+    "74": [
+        "Großbuchstabe J"
+    ],
+    "75": [
+        "Großbuchstabe K"
+    ],
+    "76": [
+        "Großbuchstabe L"
+    ],
+    "77": [
+        "Großbuchstabe M"
+    ],
+    "78": [
+        "Großbuchstabe N"
+    ],
+    "79": [
+        "Großbuchstabe O"
+    ],
+    "80": [
+        "Großbuchstabe P"
+    ],
+    "81": [
+        "Großbuchstabe Q"
+    ],
+    "82": [
+        "Großbuchstabe R"
+    ],
+    "83": [
+        "Großbuchstabe S"
+    ],
+    "84": [
+        "Großbuchstabe T"
+    ],
+    "85": [
+        "Großbuchstabe U"
+    ],
+    "86": [
+        "Großbuchstabe V"
+    ],
+    "87": [
+        "Großbuchstabe W"
+    ],
+    "88": [
+        "Großbuchstabe X"
+    ],
+    "89": [
+        "Großbuchstabe Y"
+    ],
+    "90": [
+        "Großbuchstabe Z"
+    ],
+    "91": [
+        "eckige Klammer auf"
+    ],
+    "92": [
+        "Backslash",
+        "umgekehrter Schrägstrich"
+    ],
+    "93": [
+        "eckige Klammer zu"
+    ],
+    "94": [
+        "Zirkumflex"
+    ],
+    "95": [
+        "Unterstrich"
+    ],
+    "96": [
+        "Gravis",
+        "Backtick"
+    ],
+    "97": [
+        "Kleinbuchstabe a"
+    ],
+    "98": [
+        "Kleinbuchstabe b"
+    ],
+    "99": [
+        "Kleinbuchstabe c"
+    ],
+    "100": [
+        "Kleinbuchstabe d"
+    ],
+    "101": [
+        "Kleinbuchstabe e"
+    ],
+    "102": [
+        "Kleinbuchstabe f"
+    ],
+    "103": [
+        "Kleinbuchstabe g"
+    ],
+    "104": [
+        "Kleinbuchstabe h"
+    ],
+    "105": [
+        "Kleinbuchstabe i"
+    ],
+    "106": [
+        "Kleinbuchstabe j"
+    ],
+    "107": [
+        "Kleinbuchstabe k"
+    ],
+    "108": [
+        "Kleinbuchstabe l"
+    ],
+    "109": [
+        "Kleinbuchstabe m"
+    ],
+    "110": [
+        "Kleinbuchstabe n"
+    ],
+    "111": [
+        "Kleinbuchstabe o"
+    ],
+    "112": [
+        "Kleinbuchstabe p"
+    ],
+    "113": [
+        "Kleinbuchstabe q"
+    ],
+    "114": [
+        "Kleinbuchstabe r"
+    ],
+    "115": [
+        "Kleinbuchstabe s"
+    ],
+    "116": [
+        "Kleinbuchstabe t"
+    ],
+    "117": [
+        "Kleinbuchstabe u"
+    ],
+    "118": [
+        "Kleinbuchstabe v"
+    ],
+    "119": [
+        "Kleinbuchstabe w"
+    ],
+    "120": [
+        "Kleinbuchstabe x"
+    ],
+    "121": [
+        "Kleinbuchstabe y"
+    ],
+    "122": [
+        "Kleinbuchstabe z"
+    ],
+    "123": [
+        "geschweifte Klammer auf"
+    ],
+    "124": [
+        "senkrechter Strich"
+    ],
+    "125": [
+        "geschweifte Klammer zu"
+    ],
+    "126": [
+        "Tilde"
+    ],
+    "127": [
+        "Löschen"
+    ]
+}

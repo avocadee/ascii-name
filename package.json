@@ -1,6 +1,6 @@
 {
     "name": "ascii-name",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Return name(s) of ascii code, multiple languages are supported.",
     "license": "MIT",
     "repository": "avocadee/ascii-name",
@@ -34,7 +34,7 @@
             "json-summary",
             "text",
             "lcov"
-          ]
+        ]
     },
     "dependencies": {
         "jest-coverage-badges": "^1.1.2"

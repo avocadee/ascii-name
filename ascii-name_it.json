@@ -1,0 +1,389 @@
+{
+    "0": [
+        "nullo"
+    ],
+    "1": [
+        "inizio intestazione"
+    ],
+    "2": [
+        "inizio testo"
+    ],
+    "3": [
+        "fine testo"
+    ],
+    "4": [
+        "fine trasmissione"
+    ],
+    "5": [
+        "richiesta"
+    ],
+    "6": [
+        "conferma"
+    ],
+    "7": [
+        "campanello"
+    ],
+    "8": [
+        "backspace"
+    ],
+    "9": [
+        "tabulazione orizzontale"
+    ],
+    "10": [
+        "avanzamento riga",
+        "nuova riga"
+    ],
+    "11": [
+        "tabulazione verticale"
+    ],
+    "12": [
+        "avanzamento modulo",
+        "nuova pagina"
+    ],
+    "13": [
+        "ritorno a capo"
+    ],
+    "14": [
+        "fouri turno"
+    ],
+    "15": [
+        "in turno"
+    ],
+    "16": [
+        "escape collegamento dati"
+    ],
+    "17": [
+        "controllo dispositivo 1"
+    ],
+    "18": [
+        "controllo dispositivo 2"
+    ],
+    "19": [
+        "controllo dispositivo 3"
+    ],
+    "20": [
+        "controllo dispositivo 4"
+    ],
+    "21": [
+        "conferma negativa"
+    ],
+    "22": [
+        "attesa sincrona"
+    ],
+    "23": [
+        "fine blocco trasmissione"
+    ],
+    "24": [
+        "annulla"
+    ],
+    "25": [
+        "fine supporto"
+    ],
+    "26": [
+        "sostituto"
+    ],
+    "27": [
+        "escape"
+    ],
+    "28": [
+        "separatore file"
+    ],
+    "29": [
+        "separatore gruppo"
+    ],
+    "30": [
+        "separatore record"
+    ],
+    "31": [
+        "separatore unità"
+    ],
+    "32": [
+        "spazio"
+    ],
+    "33": [
+        "punto esclamativo"
+    ],
+    "34": [
+        "virgolette"
+    ],
+    "35": [
+        "cancelletto"
+    ],
+    "36": [
+        "simbolo del dollaro"
+    ],
+    "37": [
+        "segno di percentuale"
+    ],
+    "38": [
+        "e commerciale"
+    ],
+    "39": [
+        "apostrofo"
+    ],
+    "40": [
+        "parentesi tonda aperta"
+    ],
+    "41": [
+        "parentesi tonda chiusa"
+    ],
+    "42": [
+        "asterisco"
+    ],
+    "43": [
+        "segno più"
+    ],
+    "44": [
+        "virgola"
+    ],
+    "45": [
+        "trattino",
+        "segno meno"
+    ],
+    "46": [
+        "punto"
+    ],
+    "47": [
+        "barra"
+    ],
+    "48": [
+        "cifra 0"
+    ],
+    "49": [
+        "cifra 1"
+    ],
+    "50": [
+        "cifra 2"
+    ],
+    "51": [
+        "cifra 3"
+    ],
+    "52": [
+        "cifra 4"
+    ],
+    "53": [
+        "cifra 5"
+    ],
+    "54": [
+        "cifra 6"
+    ],
+    "55": [
+        "cifra 7"
+    ],
+    "56": [
+        "cifra 8"
+    ],
+    "57": [
+        "cifra 9"
+    ],
+    "58": [
+        "due punti"
+    ],
+    "59": [
+        "punto e virgola"
+    ],
+    "60": [
+        "segno minore"
+    ],
+    "61": [
+        "segno uguale"
+    ],
+    "62": [
+        "segno maggiore"
+    ],
+    "63": [
+        "punto interrogativo"
+    ],
+    "64": [
+        "chiocciola"
+    ],
+    "65": [
+        "A maiuscola"
+    ],
+    "66": [
+        "B maiuscola"
+    ],
+    "67": [
+        "C maiuscola"
+    ],
+    "68": [
+        "D maiuscola"
+    ],
+    "69": [
+        "E maiuscola"
+    ],
+    "70": [
+        "F maiuscola"
+    ],
+    "71": [
+        "G maiuscola"
+    ],
+    "72": [
+        "H maiuscola"
+    ],
+    "73": [
+        "I maiuscola"
+    ],
+    "74": [
+        "J maiuscola"
+    ],
+    "75": [
+        "K maiuscola"
+    ],
+    "76": [
+        "L maiuscola"
+    ],
+    "77": [
+        "M maiuscola"
+    ],
+    "78": [
+        "N maiuscola"
+    ],
+    "79": [
+        "O maiuscola"
+    ],
+    "80": [
+        "P maiuscola"
+    ],
+    "81": [
+        "Q maiuscola"
+    ],
+    "82": [
+        "R maiuscola"
+    ],
+    "83": [
+        "S maiuscola"
+    ],
+    "84": [
+        "T maiuscola"
+    ],
+    "85": [
+        "U maiuscola"
+    ],
+    "86": [
+        "V maiuscola"
+    ],
+    "87": [
+        "W maiuscola"
+    ],
+    "88": [
+        "X maiuscola"
+    ],
+    "89": [
+        "Y maiuscola"
+    ],
+    "90": [
+        "Z maiuscola"
+    ],
+    "91": [
+        "parentesi quadra aperta"
+    ],
+    "92": [
+        "barra rovesciata"
+    ],
+    "93": [
+        "parentesi quadra chiusa"
+    ],
+    "94": [
+        "accento circonflesso"
+    ],
+    "95": [
+        "sottolineatura"
+    ],
+    "96": [
+        "accento grave"
+    ],
+    "97": [
+        "a minuscola"
+    ],
+    "98": [
+        "b minuscola"
+    ],
+    "99": [
+        "c minuscola"
+    ],
+    "100": [
+        "d minuscola"
+    ],
+    "101": [
+        "e minuscola"
+    ],
+    "102": [
+        "f minuscola"
+    ],
+    "103": [
+        "g minuscola"
+    ],
+    "104": [
+        "h minuscola"
+    ],
+    "105": [
+        "i minuscola"
+    ],
+    "106": [
+        "j minuscola"
+    ],
+    "107": [
+        "k minuscola"
+    ],
+    "108": [
+        "l minuscola"
+    ],
+    "109": [
+        "m minuscola"
+    ],
+    "110": [
+        "n minuscola"
+    ],
+    "111": [
+        "o minuscola"
+    ],
+    "112": [
+        "p minuscola"
+    ],
+    "113": [
+        "q minuscola"
+    ],
+    "114": [
+        "r minuscola"
+    ],
+    "115": [
+        "s minuscola"
+    ],
+    "116": [
+        "t minuscola"
+    ],
+    "117": [
+        "u minuscola"
+    ],
+    "118": [
+        "v minuscola"
+    ],
+    "119": [
+        "w minuscola"
+    ],
+    "120": [
+        "x minuscola"
+    ],
+    "121": [
+        "y minuscola"
+    ],
+    "122": [
+        "z minuscola"
+    ],
+    "123": [
+        "parentesi graffa aperta"
+    ],
+    "124": [
+        "barra verticale"
+    ],
+    "125": [
+        "parentesi graffa chiusa"
+    ],
+    "126": [
+        "tilde"
+    ],
+    "127": [
+        "cancella"
+    ]
+}

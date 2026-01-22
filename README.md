@@ -8,57 +8,57 @@
 
 
 # ascii-name
-Return name of ascii code
-
-## Important
-
-Feel free to use it.
-Now it supports English only.
-Make a Pull Request [ascii-name] if needed. (e.g. Multiple language)
-
+Return name(s) of ASCII code characters in multiple languages.
 
 ## Install
 
-```
+```bash
 $ npm install ascii-name
 ```
 
 ## Usage
 
-```js
+```javascript
 const asciiName = require('ascii-name');
 
-// string is supported
-asciiName.getName(':');     //return 'colon'
+// String is supported
+asciiName.getName(':');     // returns 'colon'
 
-// ascii code index is supported (Decimal)
-asciiName.getName(53);      //return 'colon'
+// ASCII decimal value is supported
+asciiName.getName(58);      // returns 'colon'
 
-// multiple names supported
-asciiName.getName('#');     //return 'number sign'
-asciiName.getName('#', 0);  //return 'number sign'
-asciiName.getName('#', 1);  //return 'pound' (see ascii-name_en.json)
+// Multiple names supported (if available in JSON)
+asciiName.getName('#');        // returns 'number sign' (default index 0)
+asciiName.getName('#', 0);     // returns 'number sign'
+asciiName.getName('#', 1);     // returns 'pound' (see ascii-name_en.json)
 
-// multi language supported
-asciiName.setLanguage('ko') // set language code
-asciiName.getLanguage();    // return current language code (Default: en)
+// Multi-language support
+asciiName.setLanguage('ko');   // set language code (Korean)
+asciiName.getLanguage();       // returns 'ko' (Default: 'en')
 
-asciiText.getName(':')      // return '콜론' from ascii-name_ko.json
-asciiText.getName(0)        // return 'null' from ascii-name_en.json (default) as ascii-name_ko.json does not have the value of 0
-
+asciiName.getName(':');        // returns '콜론' from ascii-name_ko.json
+asciiName.getName(0);          // returns 'null' from ascii-name_en.json (fallback to default language if not in current)
 ```
 
 ## Supported Languages
 
-- en: English
-- fr: French
-- es: Spanish
-- hi: Hindi
-- ar: Arabic
-- ko: Korean
-- zh: Chinese
-- ja: Japanese
+- **en**: English
+- **de**: German
+- **es**: Spanish
+- **fr**: French
+- **it**: Italian
+- **pt**: Portuguese
+- **ru**: Russian
+- **hi**: Hindi
+- **ar**: Arabic
+- **ko**: Korean
+- **ja**: Japanese
+- **zh**: Chinese
 
+## Contributing
+
+Feel free to contribute by adding more languages or reporting issues!
+Make a Pull Request at [ascii-name](https://github.com/avocadee/ascii-name) if needed.
 
 ## License
 
