@@ -1,6 +1,13 @@
-import asciiText from './index.js';
-
 describe('getName', () => {
+    let asciiText;
+    beforeEach(() => {
+        asciiText = require('./index');
+    });
+
+    afterEach(() => {
+        jest.resetModules();
+    });
+
     test('code index', () => {
         expect(asciiText.getName(58)).toBe('colon');
     });
@@ -24,55 +31,56 @@ describe('getName', () => {
 });
 
 describe('setLanguage', () => {
-    beforeEach(async () => {
-        await asciiText.setLanguage('en');
+    let asciiText;
+    beforeEach(() => {
+        asciiText = require('./index');
+    });
+
+    afterEach(() => {
+        jest.resetModules();
     });
 
     test('default', () => {
         expect(asciiText.getLanguage()).toBe('en');
     });
 
-    test('en', async () => {
-        await asciiText.setLanguage('en');
+    test('en', () => {
+        asciiText.setLanguage('en');
         expect(asciiText.getLanguage()).toBe('en');
         expect(asciiText.getName(':')).toBe('colon');
     });
-
-    test('ko', async () => {
-        await asciiText.setLanguage('ko');
+    test('kr', () => {
+        asciiText.setLanguage('ko');
         expect(asciiText.getLanguage()).toBe('ko');
         expect(asciiText.getName(':')).toBe('콜론');
         expect(asciiText.getName(0)).toBe('null');
+        expect(asciiText.getName(1)).toBe('start of heading');
     });
-
-    test('fr', async () => {
-        await asciiText.setLanguage('fr');
+    test('fr', () => {
+        asciiText.setLanguage('fr');
         expect(asciiText.getLanguage()).toBe('fr');
         expect(asciiText.getName(':')).toBe('deux-points');
     });
-
-    test('zh', async () => {
-        await asciiText.setLanguage('zh');
+    test('zh', () => {
+        asciiText.setLanguage('zh');
         expect(asciiText.getLanguage()).toBe('zh');
         expect(asciiText.getName(':')).toBe('冒号');
     });
-
-    test('ja', async () => {
-        await asciiText.setLanguage('ja');
+    test('ja', () => {
+        asciiText.setLanguage('ja');
         expect(asciiText.getLanguage()).toBe('ja');
         expect(asciiText.getName(':')).toBe('コロン');
     });
-
-    test('invalid', async () => {
+    test('invalid', () => {
         expect(asciiText.getLanguage()).toBe('en');
-
-        await asciiText.setLanguage('invalid');
+        asciiText.setLanguage('invalid');
         expect(asciiText.getLanguage()).toBe('en');
-
-        await asciiText.setLanguage('ko');
+        expect(asciiText.getName(':')).toBe('colon');
+        asciiText.setLanguage('ko');
         expect(asciiText.getLanguage()).toBe('ko');
-
-        await asciiText.setLanguage('invalid');
+        expect(asciiText.getName(':')).toBe('콜론');
+        asciiText.setLanguage('invalid');
         expect(asciiText.getLanguage()).toBe('ko');
+        expect(asciiText.getName(':')).toBe('콜론');
     });
 });
