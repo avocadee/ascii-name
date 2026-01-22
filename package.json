@@ -1,6 +1,6 @@
 {
     "name": "ascii-name",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Return name(s) of ascii code, multiple languages are supported.",
     "license": "MIT",
     "repository": "avocadee/ascii-name",

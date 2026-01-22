@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 18  # node 12는 지원이 종료되었으므로 18 또는 20 권장
       - run: npm ci
-      - run: npm run test:badges
+      - run: npm run test
       - uses: actions/upload-artifact@v4  # v2 -> v4 (에러 해결 지점)
         with:
           name: coverage-report  # v4에서는 name 필드가 필수인 경우가 많습니다
